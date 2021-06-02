@@ -1,0 +1,130 @@
+{
+  "name": "Bar Winkler",
+  "userId": "2",
+  "title": "CEO",
+  "email": "bar@approve.com",
+  "reportsToId": "",
+  "children": [
+    {
+      "name": "Shlomy Amsalem",
+      "userId": "9",
+      "title": "CTO",
+      "email": "shlomy@approve.com",
+      "reportsToId": "2",
+      "children": [
+        {
+          "name": "Sergey Bolshchikov",
+          "userId": "19",
+          "title": "VP R&D",
+          "email": "sergey@approve.com",
+          "reportsToId": "9",
+          "children": [
+            {
+              "name": "Lidan Hifi",
+              "userId": "33",
+              "title": "Full Stack Developer",
+              "email": "lidan@approve.com",
+              "reportsToId": "19"
+            },
+            {
+              "name": "Gal Yaniv",
+              "userId": "34",
+              "title": "QA Engineer",
+              "email": "gal@approve.com",
+              "reportsToId": "19"
+            },
+            {
+              "name": "Eden Hasan",
+              "userId": "10",
+              "title": "Full Stack Developer",
+              "email": "eden@approve.com",
+              "reportsToId": "19"
+            },
+            {
+              "name": "Avishag Banai",
+              "userId": "16",
+              "title": "Full Stack Developer",
+              "email": "avishag@approve.com",
+              "reportsToId": "19"
+            },
+            {
+              "name": "Amit Levy",
+              "userId": "17",
+              "title": "Full Stack Developer",
+              "email": "amit.levy@approve.com"
+            },
+            {
+              "name": "Ido Zilberberg",
+              "userId": "20",
+              "title": "Full Stack Developer",
+              "email": "ido@approve.com",
+              "reportsToId": "19"
+            }
+          ]
+        },
+        {
+          "name": "Niv Argov",
+          "userId": "22",
+          "title": "Operations Manager",
+          "email": "niv@approve.com",
+          "reportsToId": "9",
+          "children": [
+            {
+              "name": "Alon Kotlizki",
+              "userId": "28",
+              "title": "Operations and Support admin",
+              "email": "alon@approve.com",
+              "reportsToId": "22"
+            },
+            {
+              "name": "Rony Tamir",
+              "userId": "26",
+              "title": "Office Admin",
+              "email": "rony@approve.com",
+              "reportsToId": "22"
+            }
+          ]
+        },
+        {
+          "name": "Reut Golan",
+          "userId": "27",
+          "title": "VP Product",
+          "email": "reut@approve.com",
+          "reportsToId": "2",
+          "children": [
+            {
+              "name": "Royi Kenan",
+              "userId": "21",
+              "title": "Product Designer",
+              "email": "royi@approve.com",
+              "reportsToId": "27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dor Beglaubter",
+      "userId": "23",
+      "title": "Head of Marketing",
+      "email": "dor@approve.com",
+      "reportsToId": "2",
+      "children": [
+        {
+          "name": "Arielle Kushner",
+          "userId": "30",
+          "title": "Content Marketing Lead",
+          "email": "arielle@approve.com",
+          "reportsToId": "23"
+        }
+      ]
+    },
+    {
+      "name": "Agour Tzour",
+      "userId": "29",
+      "title": "VP Customer Success",
+      "email": "agour@approve.com",
+      "reportsToId": "2"
+    }
+  ]
+}
