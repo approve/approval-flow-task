@@ -18,7 +18,7 @@ const ApprovalFlowForm = ({onSubmit}) => {
       <Form.Item>
         <Button type="primary" htmlType="submit">
           Submit
-          </Button>
+        </Button>
       </Form.Item>
     </Form>
   )

@@ -78,10 +78,35 @@ In terms of a data structure, functional part of the flow is just a list of node
 ### Description
 We are going to generate an approval flow for any user inside organization with given amount.
 
-### Definition of Done
+### Definition of Done ✅
 1. Implement function `buildApprovalFlow` in [approval flow.js](./server/approval-flow.js).
+    1. It receives express request and response objects.
+    2. Request object contains usedId from which the approval flow is initiated in the org tree and amount
+    3. It should return the approval flow chain with the following interface:
+      ```ts
+      Array<{
+        [name: string]: string, 
+        [id: string]: string
+      }>
+      ```
 2. Implement API call that given `userId` and `amount` will return the approval flow.
 3. Render the nodes of the received approval flow.
+
+### Bonus
+#### Skip rule
+Org tree always contain CEO. We don't want to bother them on every request. As a solution we would like to introduce "Skip rule". <br>
+The rule is simple: given `userId` and `maxAmount`, it return a function which in turn receives purchase amount and  returns Boolean (`true` or `false`) whether the node should be skipped or not.
+```js
+// skipRule rule usage
+skipRule('2', 1000)(500) // true
+```
+You should implement the rule and apply it inside `buildApprovalFlow` so that it will take into account the result of `skipRule`.
+
+#### Users list
+Now the the form where you need to type userId in the UI is an open input field. Very easy to make a mistake, isn't it? 🤷 <br/>
+So we can improve it by showing the dropdown with usedId user title instead. 
+
+You should implement dropdown in the UI that shows the list of people available in the org. When choosing a person from dropdown, we should pass its userId as in previous version.
 
 ## 03 Project
 
@@ -90,3 +115,5 @@ Client code is located in `client` folder. It's based on [Create React App](http
 
 ### Server
 Server is located in corresponding `server` folder. It's a NodeJS application with Express.
+
+Files of `organization.json` and `functional.json` contain corresponding approval flow data structure.

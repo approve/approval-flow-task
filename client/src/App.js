@@ -3,8 +3,6 @@ import { useState } from 'react';
 import ApprovalFlow from "./ApprovalFlow";
 import ApprovalFlowForm from "./ApprovalFlowForm";
 
-
-
 function App() {
   const [nodes, setNodes] = useState([
     { name: "example1", id: 1 },
