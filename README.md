@@ -109,6 +109,7 @@ So we can improve it by showing the dropdown with usedId user title instead.
 You should implement dropdown in the UI that shows the list of people available in the org. When choosing a person from dropdown, we should pass its userId as in previous version.
 
 ## 03 Project
+To run the project, you need to run server and client at the same time from 2 different terminals.
 
 ### Client
 Client code is located in `client` folder. It's based on [Create React App](https://reactjs.org/docs/create-a-new-react-app.html).
