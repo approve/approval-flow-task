@@ -1,22 +1,12 @@
 [
   {
-    "name": "Product",
-    "id": "111",
-    "usersId": ["27"]
-  },
-  {
     "name": "Operations",
     "id": "222",
     "usersId": ["22"]
   },
   {
-    "name": "IT",
+    "name": "Chiefs",
     "id": "333",
-    "usersId": ["10"]
-  },
-  {
-    "name": "CSM",
-    "id": "444",
-    "usersId": ["29"]
+    "usersId": ["2"]
   }
 ]
