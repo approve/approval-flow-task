@@ -1,15 +1,13 @@
 import React from "react";
-import { Steps } from "antd";
-
-const { Step } = Steps;
+import { Timeline } from 'antd';
 
 const ApprovalFlow = ({ nodes = [] }) => {
   return (
-    <Steps progressDot direction="vertical">
+    <Timeline>
       {nodes.map(node => (
-        <Step title={node.name} />
+        <Timeline.Item key={node.id}>{node.name}</Timeline.Item>
       ))}
-    </Steps>
+    </Timeline>
   );
 };
 
