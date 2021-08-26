@@ -1,0 +1,3 @@
+FLASK_ENV=development
+FLASK_APP=approval_flow
+FLASK_RUN_PORT=3001
