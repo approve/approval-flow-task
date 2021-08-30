@@ -79,8 +79,8 @@ In terms of a data structure, functional part of the flow is just a list of node
 We are going to generate an approval flow for any user inside organization with given amount.
 
 ### Definition of Done ✅
-1. Implement function `buildApprovalFlow` in [approval flow.js](./server/approval-flow.js).
-    1. It receives express request and response objects.
+1. Implement function `buildApprovalFlow` on the server.
+    1. It receives request and response objects.
     2. Request object contains usedId from which the approval flow is initiated in the org tree and amount
     3. It should return the approval flow chain with the following interface:
       ```ts
@@ -96,10 +96,7 @@ We are going to generate an approval flow for any user inside organization with 
 #### Skip rule
 Org tree always contain CEO. We don't want to bother them on every request. As a solution we would like to introduce "Skip rule". <br>
 The rule is simple: given `userId` and `maxAmount`, it return a function which in turn receives purchase amount and  returns Boolean (`true` or `false`) whether the node should be skipped or not.
-```js
-// skipRule rule usage
-skipRule('2', 1000)(500) // true
-```
+
 You should implement the rule and apply it inside `buildApprovalFlow` so that it will take into account the result of `skipRule`.
 
 #### Users list
@@ -115,6 +112,6 @@ To run the project, you need to run server and client at the same time from 2 di
 Client code is located in `client` folder. It's based on [Create React App](https://reactjs.org/docs/create-a-new-react-app.html).
 
 ### Server
-Server is located in corresponding `server` folder. It's a NodeJS application with Express.
+Server is located in corresponding `server` folder. It has NodeJS, Python and Java implementations.
 
 Files of `organization.json` and `functional.json` contain corresponding approval flow data structure.
