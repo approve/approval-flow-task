@@ -51,7 +51,8 @@
               "name": "Amit Levy",
               "userId": "17",
               "title": "Full Stack Developer",
-              "email": "amit.levy@approve.com"
+              "email": "amit.levy@approve.com",
+              "reportsToId": "19"
             },
             {
               "name": "Ido Zilberberg",
