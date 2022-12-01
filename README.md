@@ -81,7 +81,7 @@ We are going to generate an approval flow for any user inside organization with 
 ### Definition of Done ✅
 1. Implement function `buildApprovalFlow` on the server.
     1. It receives request and response objects.
-    2. Request object contains usedId from which the approval flow is initiated in the org tree and amount
+    2. Request object contains userId from which the approval flow is initiated in the org tree and amount
     3. It should return the approval flow chain with the following interface:
       ```ts
       Array<{
