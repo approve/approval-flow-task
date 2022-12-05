@@ -89,6 +89,7 @@ We are going to generate an approval flow for any user inside organization with 
         [id: string]: string
       }>
       ```
+    The order is from the selected userId up to the root node.
 2. Implement API call that given `userId` and `amount` will return the approval flow.
 3. Render the nodes of the received approval flow.
 
