@@ -3,16 +3,16 @@
 In this task we will build the the ❤️ functionality of [Approve.com](https://approve.com) - Approval Flow.
 
 ## 01 Background
-The approval flow is the main part of our product that is used in purchase, vendor, contract, etc.
+The approval flow is the main part of our product. It is used when approving a purchase, a new vendor, a contract, etc.
 
-The approval flow consist of two parts:
+The approval flow consists of two parts:
  - Organizational Tree
  - Functional chain
 
 **The approval flow is a path in organization tree + all nodes of functional chain.**
 
 ### Organizational Tree
-Organization part of the approval flow is basically is hierarchy of the organization in json representation. Similar to this one:
+The Organization part of the approval flow is based on the hierarchy of the organization in JSON representation, similar to this one:
 ```json
 {
   "name": "A",
