@@ -1,131 +1,64 @@
 {
-  "name": "Bar Winkler",
+  "name": "CEO",
   "userId": "2",
   "title": "CEO",
-  "email": "bar@approve.com",
+  "email": "cep@xxxx.com",
   "reportsToId": "",
   "children": [
     {
-      "name": "Shlomy Amsalem",
+      "name": "CTO",
       "userId": "9",
       "title": "CTO",
-      "email": "shlomy@approve.com",
+      "email": "CTO@xxxxx.com",
       "reportsToId": "2",
       "children": [
         {
-          "name": "Sergey Bolshchikov",
+          "name": "VPRD",
           "userId": "19",
           "title": "VP R&D",
-          "email": "sergey@approve.com",
+          "email": "vprd@xxxx.com",
           "reportsToId": "9",
           "children": [
             {
-              "name": "Lidan Hifi",
+              "name": "eng1",
               "userId": "33",
               "title": "Full Stack Developer",
-              "email": "lidan@approve.com",
+              "email": "eng1.@xxxx.com",
               "reportsToId": "19"
             },
             {
-              "name": "Gal Yaniv",
+              "name": "qa1",
               "userId": "34",
               "title": "QA Engineer",
-              "email": "gal@approve.com",
+              "email": "qa@xxxx.com",
               "reportsToId": "19"
             },
-            {
-              "name": "Eden Hasan",
-              "userId": "10",
-              "title": "Full Stack Developer",
-              "email": "eden@approve.com",
-              "reportsToId": "19"
-            },
-            {
-              "name": "Avishag Banai",
-              "userId": "16",
-              "title": "Full Stack Developer",
-              "email": "avishag@approve.com",
-              "reportsToId": "19"
-            },
-            {
-              "name": "Amit Levy",
-              "userId": "17",
-              "title": "Full Stack Developer",
-              "email": "amit.levy@approve.com",
-              "reportsToId": "19"
-            },
-            {
-              "name": "Ido Zilberberg",
-              "userId": "20",
-              "title": "Full Stack Developer",
-              "email": "ido@approve.com",
-              "reportsToId": "19"
-            }
           ]
         },
         {
-          "name": "Niv Argov",
+          "name": "office",
           "userId": "22",
           "title": "Operations Manager",
-          "email": "niv@approve.com",
+          "email": "office@xxxx.com",
           "reportsToId": "9",
-          "children": [
-            {
-              "name": "Alon Kotlizki",
-              "userId": "28",
-              "title": "Operations and Support admin",
-              "email": "alon@approve.com",
-              "reportsToId": "22"
-            },
-            {
-              "name": "Rony Tamir",
-              "userId": "26",
-              "title": "Office Admin",
-              "email": "rony@approve.com",
-              "reportsToId": "22"
-            }
-          ]
         },
         {
-          "name": "Reut Golan",
+          "name": "Product",
           "userId": "27",
           "title": "VP Product",
-          "email": "reut@approve.com",
+          "email": "prod@xxxx.com",
           "reportsToId": "2",
           "children": [
             {
-              "name": "Royi Kenan",
+              "name": "Prod2",
               "userId": "21",
               "title": "Product Designer",
-              "email": "royi@approve.com",
+              "email": "des@xxxx.com",
               "reportsToId": "27"
             }
           ]
         }
       ]
-    },
-    {
-      "name": "Dor Beglaubter",
-      "userId": "23",
-      "title": "Head of Marketing",
-      "email": "dor@approve.com",
-      "reportsToId": "2",
-      "children": [
-        {
-          "name": "Arielle Kushner",
-          "userId": "30",
-          "title": "Content Marketing Lead",
-          "email": "arielle@approve.com",
-          "reportsToId": "23"
-        }
-      ]
-    },
-    {
-      "name": "Agour Tzour",
-      "userId": "29",
-      "title": "VP Customer Success",
-      "email": "agour@approve.com",
-      "reportsToId": "2"
     }
   ]
 }
