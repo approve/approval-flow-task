@@ -1,5 +1,9 @@
 # Welcome to Approval Flow Task! 🤖
 
+--- Compressed into tgz because of Security scan (Ox Security) of this unused repo ---
+Don't use it without upgrading sprint-boot-web.
+Commented on May 28 2025.
+
 In this task we will build the the ❤️ functionality of [Approve.com](https://approve.com) - Approval Flow.
 
 ## 01 Background
